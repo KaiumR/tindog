@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.title{
+	display: inline-block;
+}
+.tl-img{
+	display: flex;
+	justify-content: center;
+}
+.fx{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.fx h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.features{
+	
+}
+.fxl{
+	display: flex;
+}
+.htl{
+	height: 45px;
+    width: 46px;
+    background-color: #E9ECEF;
+    border-radius: 10px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial{
+	background-color: #F8F9FA;
+}
+.tmg{
+	display: flex;
+	justify-content: center;
+	
+}
+.tmgs>p{
+	text-align: center;
+}
+.th h2{
+	text-align:center;
+	padding-top: 6vh;
+}
+.ft{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.ft img{
+	height: 30px;
+}
+.pt{
+	border: 1px solid #D2D2D2;
+	border-radius: 10px;
+	word-wrap: break-word;
+}
+.hdl{
+	background-color: #F8F8F8;
+	text-align: center;
+    line-height: 65px;
+	border-bottom: 1px solid #D2D2D2;
+	border-radius: 10px 10px 0 0;
+}
+.lst{
+	gap: 20px;
+}
+.outline-dark{
+	background-color: #212529;
+	color: #ffffff;
+}
+.pt h1 span{
+	font-weight: 200;
+}
+.pt h1{
+	text-align: center;
+}
+.fcr{
+	text-align: center;
+	margin: 0;
+}
+.btnht{
+	height: 50px;
+	width: 90%;
+}
+.btn-cntr{
+	display: flex;
+	justify-content: center;
+}
+.pp,.ph{
+	text-align: center;
+}
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+.footer ul{
+	list-style: none;
+	padding: 0;
+}
+.footer p{
+	margin: 0;
+}
+.pt ul{
+	list-style: none;
+	padding: 0;
+}
+@media (min-width: 768px) {
+	.ft>.col-md-4{
+		width: 31.33333333%;
+	}
+}
+@media (min-width: 768px) {
+	.footer>.col-sm-6{
+		width: 20%;
+	}
+}
+.button-layout{
+	display: grid;
+}
